@@ -21,9 +21,8 @@ Consider: What patterns did you observe in the SMAP data? How might those patter
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+The SMAP data showed that anomalies were a small part of the dataset, with only 24 out of 500 timesteps labeled as anomalies. Looking at the channel 00 graph and the heatmap also showed that telemetry values can change over time and across different channels. Some anomaly values overlapped with normal values, which could make detection harder. These patterns are important for an autoencoder because it needs to learn what normal sensor behavior looks like. If normal and anomalous patterns are similar, the model may have difficulty separating them.
 
----
 
 ## Question 2 — Self-Assessment of Readiness
 
@@ -33,8 +32,6 @@ Be honest. There are no wrong answers — this helps us plan the onboarding sche
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
-
----
+My biggest gaps are in Python, statistics, and machine learning. I can understand basic Python code, but I still need more practice with pandas, data analysis, and writing code without examples. I also need to get more comfortable with statistics concepts like distributions, standard deviation, and IQR. My ML knowledge is limited, especially when it comes to autoencoders and anomaly detection. I plan to practice Python and pandas regularly, review statistics from STAT 270, and learn the basic concepts behind neural networks and autoencoders before starting research.
 
 *Submission: commit this file to your fork and include it in the GitHub repo URL you submit on Canvas.*
